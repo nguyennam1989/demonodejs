@@ -17,5 +17,9 @@
   "license": "\"MIT\"",
   "bugs": {
     "url": "https://github.com/nguyennam1989/basicjavascrip/issues"
-  ,}"homepage":"https://github.com/nguyennam1989/basicjavascrip#readme"
+  },
+  "homepage":"https://github.com/nguyennam1989/basicjavascrip#readme",
+  "dependencies":{
+    "chai":"^2.3.0"
+  }
 }

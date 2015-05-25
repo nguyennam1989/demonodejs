@@ -1,14 +1,16 @@
 /**
  * Created by nam on 21/05/2015.
  */
-"use strict"
+"use strict";
 var age =10;
+const s = 1;
 const pi = 3.14158;
-console.log(typeof pi);
+console.log(typeof(pi));
 if (parseInt(age)){
     console.log("Age is Number");
 
-}//NaN
+    }
+//NaN
 var  myage ="27";
     var myage2=parseInt(myage);
 //Boolean [true false]
@@ -17,7 +19,6 @@ var iojs_fast =true;
 if(nodeje_slow){
     console.log("Nodejs is slow");}
     else{
-
     console.log("Nodejs is fast");
 }
 if(!nodeje_slow){

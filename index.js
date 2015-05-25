@@ -1,8 +1,18 @@
 /**
  * Created by nam on 22/05/2015.
  */
-console.log( "Hello work");
-console.log(typeof 3.14);
-var x=10;
-console.log(typeof x);
+function countWords(str) {
+    var str = "xin chao cac ban ,xin chao cac ban";
+    var count = 0;
+    words = str.split(" ");
+    console.log(words);
 
+    /*  for (i=0 ; i < str.length ; i++){
+
+     if (words[i] = " ")
+     count += 1;
+     }
+     return count;
+
+     }*/
+}

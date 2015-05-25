@@ -28,4 +28,16 @@ function giai_pt(a,b,c){
     console.log(x2);
 }
 
-console.log(giai_pt(1,1,-2));
+giai_pt(1,1,-2);
+
+function count(a){
+    var a=" xin chao cac ban";
+    var dem=0;
+    var words = a.split(" ");
+    for (var i=0;i<words.length;i++)
+        if (words[i]!=""){
+            dem+=1;
+        }
+console.log("tong so tu trong chuoi:"+dem);
+}
+count();
