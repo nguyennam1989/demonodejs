@@ -31,11 +31,10 @@ String.prototype.wordscount =function(){
     var dem=0;
     var words = a.split(" ");
     for (var i=0;i<words.length;i++)
-        if (words[i]!=""){
-            dem+=1;
+        if (words[i]!="") {
+            dem += 1
         }
-    return dem;
-
+    console.log("tong so tu:"+dem);
 };
 
 module .exports =String;
