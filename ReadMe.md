@@ -1,2 +1,2 @@
 1.De mo  how to  code JavaScrip
-De mo Array  programming
+2.De mo Array  programming
